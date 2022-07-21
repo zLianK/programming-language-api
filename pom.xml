@@ -11,7 +11,7 @@
 	<groupId>com.lk</groupId>
 	<artifactId>programming-languages-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>programming-languages-api</name>
+	<name>programming-language-api</name>
 	<description>Api for programming languages</description>
 	<properties>
 		<java.version>18</java.version>
@@ -27,6 +27,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+      		<groupId>org.springframework.boot</groupId>
+      		<artifactId>spring-boot-starter-data-mongodb</artifactId>
+    	</dependency>
 	</dependencies>
 
 	<build>
